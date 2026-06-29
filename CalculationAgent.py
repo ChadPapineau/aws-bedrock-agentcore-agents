@@ -8,7 +8,7 @@ from strands_tools import calculator
 from bedrock_agentcore.runtime import BedrockAgentCoreApp
 
 app = BedrockAgentCoreApp()
-MODEL_ID = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+MODEL_ID = "us.anthropic.claude-sonnet-4-6"
 
 @app.entrypoint
 def invoke(payload, context):
